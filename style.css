@@ -331,3 +331,38 @@ figcaption {
     object-fit: cover;
     display: block;
 }
+/* ---------- SAAB PROJECT ---------- */
+
+.saab-hero {
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.restoration-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.restoration-item {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.restoration-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.restoration-item p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    .restoration-grid {
+        grid-template-columns: 1fr;
+    }
+}
