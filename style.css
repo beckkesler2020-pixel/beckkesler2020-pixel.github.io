@@ -291,3 +291,8 @@ figcaption {
         font-size: 2.2rem;
     }
 }
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
